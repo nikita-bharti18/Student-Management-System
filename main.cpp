@@ -26,7 +26,6 @@ json to_json(const Student& s) {
 int main() {
     Server svr;
 
-    // GET all students
     svr.Get("/students", [](const Request& req, Response& res) {
         json result = json::array();
         for (auto& [id, student] : database) {
@@ -35,7 +34,7 @@ int main() {
         res.set_content(result.dump(), "application/json");
     });
 
-    // GET student by ID
+
     svr.Get(R"(/students/(\d+))", [](const Request& req, Response& res) {
         int id = std::stoi(req.matches[1]);
 
@@ -47,7 +46,7 @@ int main() {
         }
     });
 
-    // POST create student
+   
     svr.Post("/students", [](const Request& req, Response& res) {
         auto body = json::parse(req.body);
 
@@ -61,7 +60,7 @@ int main() {
         res.set_content("{\"message\":\"Student added\"}", "application/json");
     });
 
-    // PUT update student
+
     svr.Put(R"(/students/(\d+))", [](const Request& req, Response& res) {
         int id = std::stoi(req.matches[1]);
 
@@ -79,7 +78,7 @@ int main() {
         res.set_content("{\"message\":\"Student updated\"}", "application/json");
     });
 
-    // DELETE student
+
     svr.Delete(R"(/students/(\d+))", [](const Request& req, Response& res) {
         int id = std::stoi(req.matches[1]);
 
