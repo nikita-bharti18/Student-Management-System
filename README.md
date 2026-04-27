@@ -4,7 +4,7 @@ A lightweight REST API built using C++ that performs CRUD operations for managin
 
 ---
 
-## 🚀 Overview
+##  Overview
 
 This API allows you to:
 - Create student records
@@ -14,7 +14,7 @@ This API allows you to:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - C++ (C++17)
 - cpp-httplib (HTTP server)
@@ -22,7 +22,7 @@ This API allows you to:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 project-folder/
@@ -34,7 +34,7 @@ project-folder/
 
 ---
 
-## ⚙️ Setup & Run
+##  Setup & Run
 
 ### 1. Clone Repository
 
@@ -114,7 +114,7 @@ DELETE /students/{id}
 
 ---
 
-## 🧪 Testing with Curl
+##  Testing with Curl
 
 ### Add Student
 ```
@@ -142,7 +142,7 @@ curl -X DELETE http://localhost:8080/students/1
 
 ---
 
-## ✨ Features
+##  Features
 
 - REST API in pure C++
 - Lightweight and fast
@@ -152,7 +152,7 @@ curl -X DELETE http://localhost:8080/students/1
 
 ---
 
-## 🚧 Limitations
+##  Limitations
 
 - In-memory database (resets on restart)
 - No authentication
@@ -160,7 +160,7 @@ curl -X DELETE http://localhost:8080/students/1
 
 ---
 
-## 🔥 Future Improvements
+##  Future Improvements
 
 - Add database (SQLite/MySQL)
 - Implement JWT authentication
@@ -170,7 +170,7 @@ curl -X DELETE http://localhost:8080/students/1
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repo
 2. Create branch
@@ -179,13 +179,13 @@ curl -X DELETE http://localhost:8080/students/1
 
 ---
 
-## 📜 License
+##  License
 
 MIT License
 
 ---
+##  Author
 
-## 👨‍💻 Author
-
-Your Name  
-GitHub: https://github.com/your-username
+```
+GitHub: https://github.com/rishi02soni
+```
