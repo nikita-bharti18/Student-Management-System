@@ -187,5 +187,5 @@ MIT License
 ##  Author
 
 ```
-GitHub: https://github.com/rishi02soni
+GitHub: https://github.com/nikita-bharti18
 ```
