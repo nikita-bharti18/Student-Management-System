@@ -46,6 +46,7 @@ cd cpp-student-api
 ### 2. Add Dependencies
 
 Download and place in project folder:
+
 - httplib.h → https://github.com/yhirose/cpp-httplib
 - json.hpp → https://github.com/nlohmann/json
 
@@ -185,7 +186,7 @@ MIT License
 
 ---
 ##  Author
-
+Nikita Bharti
 ```
 GitHub: https://github.com/nikita-bharti18
 ```
